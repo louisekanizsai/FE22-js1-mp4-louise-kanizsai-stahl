@@ -1,0 +1,103 @@
+div{
+    position: absolute;
+}
+
+#bed,#body,#head,#cat-head,#cat-body,#cat-tail{
+    background-color: black;
+}
+
+#bed{
+    width: 400px;
+    height: 100px;
+    top: 300px;
+    left: 150px;
+}
+
+#head{
+    border-radius: 50%;
+    width: 60px;
+    height: 60px;
+    left: 460px;
+    top: 270px;
+}
+
+#body{
+    width: 300px;
+    height: 100px;
+    border-radius: 100px/50px;
+    top: 260px;
+    left: 180px;
+}
+
+#cat-head{
+    border-radius: 50%;
+    width: 45px;
+    height: 35px;
+    top: 290px;
+    left: -55px;
+}
+
+#cat-ear1, #cat-ear2{
+    width: 0;
+    height: 0;
+    border-left: 8px solid transparent;
+    border-right: 8px solid transparent;
+    border-bottom: 15px solid black;
+    top: 282px;
+}
+
+#cat-ear1{
+    left: -54px;
+    rotate: 325deg;
+}
+
+#cat-ear2{
+    rotate: 35deg;
+    left: -27px;
+}
+
+#cat-body{
+    width: 90px;
+    height: 35px;
+    border-radius: 40% 20%;
+    top: 315px;
+    left: -115px;
+}
+
+#front-legs,#back-legs{
+    border-top: 30px solid black;
+    border-left: 5px solid transparent;
+    border-right: 5px solid transparent;
+    height: 0;
+    width: 5px;
+    top: 340px;
+}
+
+#front-legs{
+    left: -50px;
+}
+
+#back-legs{
+    left: -110px;
+}
+
+#cat-tail{
+    height: 50px;
+    width: 15px;
+    border-radius: 0 50px;
+    top: 274px;
+    left: -115px;
+    rotate: 20deg;
+}
+
+#human-snores div{
+    font: bold 10px Verdana, sans-serif;
+    top: 250px;
+    left: 500px;
+}
+
+#cat-snores div{
+    font: bold 4px Verdana, sans-serif;
+    top: 300px;
+    left: -20px;
+}
